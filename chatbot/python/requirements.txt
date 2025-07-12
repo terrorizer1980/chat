@@ -1,3 +1,4 @@
 futures>=3.2.0; python_version<'3'
 grpcio>=1.18.0
 tinode-grpc>=0.16
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
